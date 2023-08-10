@@ -1,0 +1,19 @@
+/* * {
+  font-family: "Noto Sans JP", sans-serif;
+} */
+
+@keyframes circle-rotate {
+  0% {
+    rotate: 0deg;
+  }
+  50% {
+    rotate: 180deg;
+  }
+  100% {
+    rotate: 360deg;
+  }
+}
+/* .circle {
+  transition: 4s linear all;
+  animation: circle-rotate 4s infinite;
+} */
