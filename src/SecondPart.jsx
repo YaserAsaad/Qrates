@@ -2,7 +2,7 @@ import React from "react";
 
 function SecondPart() {
   return (
-    <div className="block">
+    <div className="">
       <div className="flex justify-center mt-[2rem] mb-[6rem]">
         <p className="text-4xl text-black font-bold">
           Choose from two formats and three project types.

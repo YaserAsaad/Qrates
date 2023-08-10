@@ -6,7 +6,7 @@ function PartOne() {
       <div className="relative">
         <div className="img_text flex-auto flex">
           <div className="flex flex-row ">
-            <div className="HEADING-WRITE ml-8 ">
+            <div className="HEADING-WRITE ml-8">
               <h2 className="uppercase border-black w-fit px-3 py-1.5 border-2 text-sm mt-4 md:mt-0 font-medium">
                 why qrates
               </h2>
@@ -25,27 +25,33 @@ function PartOne() {
           </div>
         </div>
         {/* PICS SECTION */}
-        <section className="relative xl:hidden ">
+        <section className="relative flex xl:hidden bg-red-300 py-[20rem] sm:py-[15rem] md:py-[10rem]">
+          <div className="bg-blue-400 m-2">
           <div
-            className="max-sm:w-[320px] max-sm:h-[400px] 
-            max-md:w-[400px] max-md:h-[500px] max-lg:w-[530px] max-lg:h-[600px] max-xl:w-[640px] max-xl:h-[700px]
-           bg-[url(https://assets.qrates.com/assets/pages/why/top_section_image_1-19e17128a5c5d00086b015c854c53e996947b7b6c3861da0018d176972ff9b24.png)] object-cover object-center float-right mt-10 rotate-[5deg] "
-          ></div>
+              className="max-sm:w-[320px] max-sm:h-[400px]
+              max-md:w-[400px] max-md:h-[500px]
+              max-lg:w-[530px] max-lg:h-[600px]
+              max-xl:w-[640px] max-xl:h-[700px]
+            bg-black object-cover relative object-center -rotate-[5deg]"
+            ></div>
 
+          </div>
+          <div className="bg-blue-400 m-2 relative">
           <div
             className="max-sm:w-[320px] max-sm:h-[400px]
-            max-md:w-[400px] max-md:h-[500px]
-            max-lg:w-[530px] max-lg:h-[600px]
-            max-xl:w-[640px] max-xl:h-[700px]
-           bg-[url(https://assets.qrates.com/assets/pages/why/top_section_image_2-437b9cf9e5119f1e270f4fd3cafafaf2683ae3d5c11c2cca3b57228d4f0e5ba8.png)] object-cover object-center float-left -rotate-[5deg] "
+            max-md:w-[400px] max-md:h-[500px] max-lg:w-[530px] max-lg:h-[600px] max-xl:w-[640px] max-xl:h-[700px]
+           bg-green-500 object-cover object-center  mt-10 rotate-[5deg] absolute top-[-22rem] left-[-6rem]"
           ></div>
+          </div>
+
+          
           <div
             className="w-[12rem] h-[10rem]
           max-sm:w-[6rem] max-sm:h-[10rem]
-          bg-no-repeat float-right mr-0 md:mr-8 mt-20"
+          bg-no-repeat mr-0 absolute right-0 bottom-[15rem]"
           >
             <img
-              className="max-[420px]:hidden p-6 max-md:p-0 max-lg:p-2 max-xl:p-0"
+              className="max-[420px]:hidden p-6 max-md:p-0 max-lg:p-2 max-xl:p-0 "
               src="https://assets.qrates.com/assets/common/sticker/paid_to_artists-67aaceef55833613704b30da81f0ffce0727e17e879bdaa3f7cba9a63917fa17.svg"
               alt=""
             />
@@ -62,7 +68,7 @@ function PartOne() {
             />
           </div>
 
-          <div className="-rotate-[5deg] flex ml-10 md:ml-28  mt-8 absolute">
+          <div className="-rotate-[5deg] flex ml-10 md:ml-28  mt-8 absolute ">
             <img
               className="max-md:w-[80%] border-dashed border-2 border-black "
               src="https://assets.qrates.com/assets/pages/why/top_section_image_2-437b9cf9e5119f1e270f4fd3cafafaf2683ae3d5c11c2cca3b57228d4f0e5ba8.png"
