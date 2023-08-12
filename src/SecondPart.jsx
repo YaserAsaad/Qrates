@@ -2,9 +2,10 @@ import React from "react";
 
 function SecondPart() {
   return (
+    // mt-[60rem] max-lg:mt-[80rem] max-xl:mt-[100rem]
     <div className="">
       <div className="flex justify-center mt-[2rem] mb-[6rem]">
-        <p className="text-4xl text-black font-bold">
+        <p className="text-4xl flex text-center justify-center max-md:max-w-[20rem] text-black font-medium ">
           Choose from two formats and three project types.
         </p>
       </div>
@@ -17,18 +18,18 @@ function SecondPart() {
             <h2 className="font-bold text-4xl text-black my-[2rem] self-center">
               Vinyl
             </h2>
-            <p className="max-w-[30rem] text-center text-xl ">
+            <p className="max-w-[30rem] text-center md:text-xl ">
               We know how special pressed records are to you. Our products are
               built for fans, by fans. We make it easy for artists to press
               vinyl, so the music you love can keep reaching ears in the most
               beautiful way.
             </p>
             <img
-              className="w-[40%] my-[3rem]"
+              className="w-[40%] my-[2rem]"
               src="https://assets.qrates.com/assets/common/sticker/vinyl-love-97bd449a3eecf71ebb8a0b78bf4409a22fb4bfa82b2f7f07db0c60cbd1bf3206.png"
               alt=""
             />
-            <button className="mt-[2rem] font-semibold bg-black text-white rounded-3xl p-3 px-6 uppercase mt-">
+            <button className="mt-auto font-semibold bg-black text-white rounded-3xl p-3 px-6 uppercase max-md:text-xs">
               make your own vinyl
             </button>
           </div>
@@ -41,7 +42,7 @@ function SecondPart() {
             <h2 className="font-bold text-4xl text-black my-[2rem] self-center">
               Cassette
             </h2>
-            <p className="max-w-[30rem] text-center text-xl ">
+            <p className="max-w-[30rem] text-center md:text-xl ">
               Cassettes have always been special to music fans and artists.
               Whether you are saving a recording of a great concert, or
               preserving an early demo, there’s no better way to keep that music
@@ -52,7 +53,7 @@ function SecondPart() {
               src="https://assets.qrates.com/assets/common/sticker/cassette-run-c52594419a36edac41325e29aaf63ccf99db98385f37d212ea20f77d71ab390d.png"
               alt=""
             />
-            <button className="mt-[2rem] font-semibold bg-black text-white rounded-3xl p-3 px-6 uppercase mt-">
+            <button className="mt-auto font-semibold bg-black text-white rounded-3xl p-3 px-6 uppercase max-md:text-xs">
               make your own CASSETTE
             </button>
           </div>
@@ -81,7 +82,7 @@ function SecondPart() {
             <h2 className="font-bold text-4xl text-black my-[2rem] self-center">
               Make & Sell
             </h2>
-            <p className="max-w-[30rem] text-center text-xl ">
+            <p className="max-w-[30rem] text-center md:text-xl ">
               Put your music on physical, sooner. Take pre-orders from fans and
               we'll take care of the rest.
             </p>
@@ -90,7 +91,7 @@ function SecondPart() {
               src="https://assets.qrates.com/assets/common/sticker/press_sell-79f40b644d0a73d034023b8a030a3a7eb72b8719c861c1e8d9fc83121ead6525.png"
               alt=""
             />
-            <button className="mt-[2rem] font-semibold bg-black text-white rounded-3xl p-3 px-20 uppercase mt-">
+            <button className="mt-auto font-semibold bg-black text-white rounded-3xl p-3 px-20 uppercase max-md:text-xs">
               learn more
             </button>
           </div>
@@ -103,7 +104,7 @@ function SecondPart() {
             <h2 className="font-bold text-4xl text-black my-[2rem] self-center">
               Crowdfunding
             </h2>
-            <p className="max-w-[30rem] text-center text-xl ">
+            <p className="max-w-[30rem] text-center md:text-xl ">
               Rally your fans and gather pledges. Press the exact number of
               records you need, without having to pay anything upfront.
             </p>
@@ -112,7 +113,7 @@ function SecondPart() {
               src="https://assets.qrates.com/assets/common/sticker/crowdfunding-5e98c304d1cfa25d58fc9bce9fc720a25f5b21f17b12645c17b089bc08af0db6.png"
               alt=""
             />
-            <button className="mt-[2rem] font-semibold bg-black text-white rounded-3xl p-3 px-20 uppercase mt-">
+            <button className="mt-auto font-semibold bg-black text-white rounded-3xl p-3 px-20 uppercase max-md:text-xs">
               learn more
             </button>
           </div>
