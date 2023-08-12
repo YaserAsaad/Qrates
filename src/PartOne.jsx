@@ -25,30 +25,31 @@ function PartOne() {
           </div>
         </div>
         {/* PICS SECTION */}
-        <section className="relative xl:hidden py-[20rem] sm:py-[15rem] md:py-[10rem]">
+        <section className="relative flex xl:hidden pt-[20rem] pb-[2rem] sm:py-[15rem] md:py-[10rem]">
           <div className="m-2">
             <div
-              className="max-sm:w-[320px] max-sm:h-[400px] 
-            max-md:w-[400px] max-md:h-[500px] max-lg:w-[530px] max-lg:h-[600px] max-xl:w-[640px] max-xl:h-[700px]
-           bg-[url(https://assets.qrates.com/assets/pages/why/top_section_image_1-19e17128a5c5d00086b015c854c53e996947b7b6c3861da0018d176972ff9b24.png)] bg-cover bg-center rotate-[5deg] "
+              className="max-sm:w-[320px] max-sm:h-[400px]
+              max-md:w-[400px] max-md:h-[500px]
+              max-lg:w-[450px] max-lg:h-[600px]
+              max-xl:w-[640px] max-xl:h-[700px]
+            bg-black bg-cover relative bg-center -rotate-[5deg] border-2 border-black bg-[url(https://assets.qrates.com/assets/pages/why/top_section_image_2-437b9cf9e5119f1e270f4fd3cafafaf2683ae3d5c11c2cca3b57228d4f0e5ba8.png)]"
             ></div>
           </div>
-          <div className="m-2 relative">
+          <div className=" m-2 relative">
             <div
               className="max-sm:w-[320px] max-sm:h-[400px]
-            max-md:w-[400px] max-md:h-[500px]
-            max-lg:w-[530px] max-lg:h-[600px]
-            max-xl:w-[640px] max-xl:h-[700px]
-           bg-[url(https://assets.qrates.com/assets/pages/why/top_section_image_2-437b9cf9e5119f1e270f4fd3cafafaf2683ae3d5c11c2cca3b57228d4f0e5ba8.png)] bg-cover bg-center mt-10 -rotate-[5deg] absolute top-[-22rem] left-[-6rem]"
+            max-md:w-[400px] max-md:h-[500px] max-lg:w-[450px] max-lg:h-[600px] max-xl:w-[640px] max-xl:h-[700px]
+            bg-cover bg-center border-2 border-black bg-[url(https://assets.qrates.com/assets/pages/why/top_section_image_1-19e17128a5c5d00086b015c854c53e996947b7b6c3861da0018d176972ff9b24.png)] mt-10 rotate-[5deg] absolute top-[-22rem] max-sm:left-[-12rem] max-md:left-[-5rem] max-lg:left-[-0rem] max-xl:left-[-8rem]"
             ></div>
           </div>
+
           <div
             className="w-[12rem] h-[10rem]
           max-sm:w-[6rem] max-sm:h-[10rem]
-          bg-no-repeat mr-0 absolute right-0 bottom-[15rem]"
+          bg-no-repeat mr-0 absolute right-0 max-sm:bottom-[10rem] max-md:bottom-[22rem] max-lg:bottom-[18rem] max-xl:bottom-[16rem]"
           >
             <img
-              className="max-[420px]:hidden p-6 max-md:p-0 max-lg:p-2 max-xl:p-0"
+              className="max-[420px]:hidden p-6 max-md:p-0 max-lg:p-2 max-xl:p-0 "
               src="https://assets.qrates.com/assets/common/sticker/paid_to_artists-67aaceef55833613704b30da81f0ffce0727e17e879bdaa3f7cba9a63917fa17.svg"
               alt=""
             />

@@ -11,8 +11,9 @@ function ThirdPart() {
               our services
             </h4>
             <h3
-              className="font-medium text-2xl md:text-5xl to-transparent bg-white text-black mt-[2rem] 
+              className="font-medium text-2xl md:text-5xl text-white mt-[2rem] 
             "
+              style={{ textShadow: "0 0 5px black" }}
             >
               YOU MAKE MUSIC.
               <br />
@@ -73,7 +74,7 @@ function ThirdPart() {
         <section className="bg-[#e280ff] border-2 border-black flex justify-center ">
           <div className="flex items-center flex-col ">
             <div
-              className="h-[20rem] w-[30rem]
+              className="h-[20rem] w-[22rem]
                m-8 mb-[5rem]
                md:h-[20rem] md:w-[24rem]
                lg:h-[25rem] lg:w-[32rem]

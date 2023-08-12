@@ -7,7 +7,7 @@ import ThirdPart from "./ThirdPart";
 
 function App() {
   return (
-    <div>
+    <div className="overflow-hidden">
       <Navbar />
       <PartOne />
       <SecondPart />
