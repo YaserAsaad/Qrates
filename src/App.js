@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./Footer";
 import FourthPart from "./FourthPart";
 import Navbar from "./Navbar";
 import PartOne from "./PartOne";
@@ -13,6 +14,7 @@ function App() {
       <SecondPart />
       <ThirdPart />
       <FourthPart />
+      <Footer />
     </div>
   );
 }

@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
+import Card from "./components/Card";
+import MobileCard from "./components/MobileCard";
 
 function FourthPart() {
+  const [colors, setColors] = useState(true);
+
   return (
     <div>
       <section>
@@ -24,6 +28,11 @@ function FourthPart() {
           </button>
         </div>
       </section>
+      {/* section yellow & orange with picture*/}
+      <Card colors={colors} setColors={setColors} />
+
+      {/* mobile section */}
+      <MobileCard colors={colors} setColors={setColors} />
     </div>
   );
 }
