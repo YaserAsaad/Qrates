@@ -36,11 +36,123 @@ function ThirdPart() {
             </button>
           </div>
         </section>
+        {/* section - 2 */}
+        {/* the dropdown section later*/}
         <section>
-          {/* section - 2 */}
-          {/* the dropdown section later*/}
+          <div className="max-sm:mt-[4rem] md:mt-[-4rem] md:ml-[4rem]">
+            {/* Making Records & Cassettes */}
+            <div className="border-2 border-black bg-black text-white text-3xl p-6 w-[35rem]">
+              <label className=" text-center font-medium ">
+                Making Records & Cassettes
+              </label>
+            </div>
+            <div className="collapse bg-white border-b-0 border-2 border-black w-[35rem] rounded-none">
+              <input type="checkbox" />
+              <div className="collapse-title text-xl font-medium">
+                Click me to show/hide content
+              </div>
+              <div className="collapse-content text-lg">
+                <p>
+                  With over 40 colors and over 120,000 variations, control what
+                  your record will look like.
+                </p>
+              </div>
+            </div>
+            <div className="collapse bg-white border-b-0 border-2 border-black w-[35rem] rounded-none">
+              <input type="checkbox" />
+              <div className="collapse-title text-xl font-medium">
+                Click me to show/hide content
+              </div>
+              <div className="collapse-content">
+                <p>hello</p>
+              </div>
+            </div>
+            <div className="collapse bg-white border-b-0 border-2 border-black w-[35rem] rounded-none">
+              <input type="checkbox" />
+              <div className="collapse-title text-xl font-medium">
+                Click me to show/hide content
+              </div>
+              <div className="collapse-content">
+                <p>hello</p>
+              </div>
+            </div>
+            <div className="collapse bg-white  border-2 border-black w-[35rem] rounded-none">
+              <input type="checkbox" />
+              <div className="collapse-title text-xl font-medium">
+                Click me to show/hide content
+              </div>
+              <div className="collapse-content">
+                <p>hello</p>
+              </div>
+            </div>
+            {/* Storage & Distribution */}
+            <div className="border-2 border-black bg-black text-white text-3xl p-6 w-[35rem]">
+              <label className=" text-center font-medium">
+                Storage & Distribution
+              </label>
+            </div>
+            <div className="collapse bg-white border-b-0 border-2 border-black w-[35rem] rounded-none">
+              <input type="checkbox" />
+              <div className="collapse-title text-xl font-medium">
+                Click me to show/hide content
+              </div>
+              <div className="collapse-content">
+                <p>hello</p>
+              </div>
+            </div>
+            <div className="collapse bg-white border-b-0 border-2 border-black w-[35rem] rounded-none">
+              <input type="checkbox" />
+              <div className="collapse-title text-xl font-medium">
+                Click me to show/hide content
+              </div>
+              <div className="collapse-content">
+                <p>hello</p>
+              </div>
+            </div>
+            <div className="collapse bg-white border-b-0 border-2 border-black w-[35rem] rounded-none">
+              <input type="checkbox" />
+              <div className="collapse-title text-xl font-medium">
+                Click me to show/hide content
+              </div>
+              <div className="collapse-content">
+                <p>hello</p>
+              </div>
+            </div>
+            <div className="collapse bg-white  border-2 border-black w-[35rem] rounded-none">
+              <input type="checkbox" />
+              <div className="collapse-title text-xl font-medium">
+                Click me to show/hide content
+              </div>
+              <div className="collapse-content">
+                <p>hello</p>
+              </div>
+            </div>
+            {/* Support */}
+            <div className="border-2 border-black bg-black text-white text-3xl p-6 w-[35rem]">
+              <label className=" text-center font-medium">support</label>
+            </div>
+            <div className="collapse bg-white border-b-0 border-2 border-black w-[35rem] rounded-none">
+              <input type="checkbox" />
+              <div className="collapse-title text-xl font-medium">
+                Click me to show/hide content
+              </div>
+              <div className="collapse-content">
+                <p>hello</p>
+              </div>
+            </div>
+            <div className="collapse bg-white border-2 border-black w-[35rem] rounded-none">
+              <input type="checkbox" />
+              <div className="collapse-title text-xl font-medium">
+                Click me to show/hide content
+              </div>
+              <div className="collapse-content">
+                <p>hello</p>
+              </div>
+            </div>
+          </div>
         </section>
       </div>
+
       <div className="grid grid-cols-1 md:grid-cols-2">
         {/* section 3 */}
 
